@@ -8,7 +8,7 @@ using Distances
 Evaluate the euclidean distance.
 """
 function euclidean(x, y)
-    r = evaluate(Euclidean(), x, y)
+    r = evaluate(Euclidean(), x, y) + 1
     return r
 end
 
